@@ -4,34 +4,35 @@ Country Tableview with Search Bar(including country flag,country code,country na
 
 ###Installation
 
-      •	import in your project the folder "SKACountryTableView"
+• import in your project the folder "SKACountryTableView"
 
 ###How to use
 
-      •	in your code import SKACountryTableView.h interface(.h) file.
+•  in your code import SKACountryTableView.h file.
 
-#import "SKACountryTableView.h"
+      #import "SKACountryTableView.h"
 
-      •	implement delegate in your class
+•  implement delegate in your class
 
-@interface className : UIViewController<SKACountryTableViewViewDelegate>
+      @interface className : UIViewController<SKACountryTableViewViewDelegate>
+
 •	add delegate methods
 
- -(void)didSelectItem:(NSString *)item; //to select country view cell
+      -(void)didSelectItem:(NSString *)item; //to select country view cell
 
 •	in your code add follow code when you need show the SKACountryTableView
 
-SKACountryTableView *objYHCPickerView = [[SKACountryTableView alloc] initWithFrame:CGRectMake(0, 467, 414, 270) withNSArray:nameArray];
+           SKACountryTableView *objYHCPickerView = [[SKACountryTableView alloc] initWithFrame:CGRectMake(0, 467,         414,270)withNSArray:nameArray];      
 
-objYHCPickerView.delegate = self;
+           objYHCPickerView.delegate = self;
 
-CGRect newFrame = objYHCPickerView.frame;
+           CGRect newFrame = objYHCPickerView.frame;
 
-objYHCPickerView.passRect=newFrame;
+           objYHCPickerView.passRect=newFrame;
 
-[self.view addSubview:objYHCPickerView];
+           [self.view addSubview:objYHCPickerView];
 
-[objYHCPickerView showPicker];
+            [objYHCPickerView showPicker];
 
 ####feedback?
 
