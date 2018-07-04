@@ -33,6 +33,10 @@ Country Tableview with Search Bar(including country flag,country code,country na
       [tablecoun showTableView];
     
       [self.view addSubview:tablecoun];
+      
+•  in your app AppDelegate add country table Create query     
+      
+       show in clone example   
 
 ####feedback?
 
