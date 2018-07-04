@@ -4,7 +4,7 @@ Country Tableview with Search Bar(including country flag,country code,country na
 
 ###Installation
 
-• import in your project the folder "SKACountryTableView"
+•  import in your project the folder "SKACountryTableView"
 
 ###How to use
 
@@ -16,23 +16,23 @@ Country Tableview with Search Bar(including country flag,country code,country na
 
       @interface className : UIViewController<SKACountryTableViewViewDelegate>
 
-•	add delegate methods
+•  add delegate methods
 
       -(void)didSelectItem:(NSString *)item; //to select country view cell
 
-•	in your code add follow code when you need show the SKACountryTableView
+•  in your code add follow code when you need show the SKACountryTableView
 
-           SKACountryTableView *objYHCPickerView = [[SKACountryTableView alloc] initWithFrame:CGRectMake(0, 467,414,270)withNSArray:nameArray];      
-
-           objYHCPickerView.delegate = self;
-
-           CGRect newFrame = objYHCPickerView.frame;
-
-           objYHCPickerView.passRect=newFrame;
-
-           [self.view addSubview:objYHCPickerView];
-
-           [objYHCPickerView showPicker];
+      tablecoun = [[SKACountryTableView alloc] initWithFrame:CGRectMake(50, 210, 320, 350)];
+    
+      tablecoun.delegate = self;
+    
+      CGRect newFrame = tablecoun.frame;
+    
+      ablecoun.passRect=newFrame;
+    
+      [tablecoun showTableView];
+    
+      [self.view addSubview:tablecoun];
 
 ####feedback?
 
