@@ -34,9 +34,11 @@ Country Tableview with Search Bar(including country flag,country code,country na
     
       [self.view addSubview:tablecoun];
       
-•  in your app AppDelegate add country table Create query     
+•  in your app AppDelegate add country table Create code      
       
-       show in clone example   
+       NSString *createMark_Info=@"CREATE TABLE Table_Countries (_id numeric, coun_name nvarchar(500), coun_code nvarchar(50), flag_Name nvarchar(500), active_flag bit)";
+       
+       (Detail code show in Example)
 
 ####feedback?
 
