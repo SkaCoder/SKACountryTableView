@@ -22,7 +22,7 @@ Country Tableview with Search Bar(including country flag,country code,country na
 
 •	in your code add follow code when you need show the SKACountryTableView
 
-           SKACountryTableView *objYHCPickerView = [[SKACountryTableView alloc] initWithFrame:CGRectMake(0, 467,         414,270)withNSArray:nameArray];      
+           SKACountryTableView *objYHCPickerView = [[SKACountryTableView alloc] initWithFrame:CGRectMake(0, 467,414,270)withNSArray:nameArray];      
 
            objYHCPickerView.delegate = self;
 
@@ -32,7 +32,7 @@ Country Tableview with Search Bar(including country flag,country code,country na
 
            [self.view addSubview:objYHCPickerView];
 
-            [objYHCPickerView showPicker];
+           [objYHCPickerView showPicker];
 
 ####feedback?
 
